@@ -2,4 +2,4 @@ language: python
 
 install: "pip install nose pylint"
 
-script: "nosetests && pylint"
+script: "pylint autodown_scrap.py"
